@@ -5,7 +5,7 @@ const fibonacci = function(num) {
   // Less than 0
   if (num < 0) {
     return "OOPS";
-  } else if (num === 0) {
+  } else if (num == 0) {
     return 0;
   } else if (num == 1) {
     return b;
