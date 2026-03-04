@@ -10,7 +10,7 @@ describe('palindromes', () => {
   test.skip('detects palindrome with multiple words', () => {
     expect(palindromes('A car, a man, a maraca.')).toBe(true);
   });
-  test.skip('ignores punctuation', () => {
+  test('ignores punctuation', () => {
     expect(palindromes('racecar!')).toBe(true);
   });
   test('is case insensitive', () => {
