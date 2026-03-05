@@ -1,5 +1,4 @@
 const findTheOldest = function(arr) {
-  let name_oldest = "";
   let arr_age = [];
   for (person of arr) {
     let age = person.yearOfDeath - person.yearOfBirth;
@@ -7,7 +6,7 @@ const findTheOldest = function(arr) {
   }
   let oldest = Math.max(...arr_age);
   let index_oldest = arr_age.indexOf(oldest);
-  
+
   return arr[index_oldest];
 };
 
